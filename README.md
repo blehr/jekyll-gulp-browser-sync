@@ -1,6 +1,6 @@
-# Jekyll - Gulp - Browser-sync 
+# Jekyll - Gulp - Browsersync 
 
-Jekyll build processs using Gulp and Browser-sync, compatible with [Cloud9](http://c9.io).
+[Jekyll](https://jekyllrb.com/) development workflow using [Gulp](http://gulpjs.com/) and [Browsersync](https://www.browsersync.io/), compatible with [Cloud9](http://c9.io).
 
 ### Directory Structure
 ```
@@ -73,7 +73,7 @@ Jekyll build processs using Gulp and Browser-sync, compatible with [Cloud9](http
    * process all images in `_app/images` and place them
    in the `images` folder and in `_site/images`
    * next `jekyll build` will build the site to `_site`
-   * browser-sync will serve `_site` on localhost:8082
+   * browsersync will serve `_site` on localhost:8082
    * any changes saved in `_app/styles` will be built and injected
    to be shown without a page refresh
    * Any changes saved in either `_app/scripts` or `_app/images`
