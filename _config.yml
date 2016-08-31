@@ -26,4 +26,21 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+
+gems: [ 
+  jekyll-sitemap, 
+  jekyll-seo-tag, 
+  jekyll-mentions, 
+  jemoji, 
+  jekyll-redirect-from, 
+  jekyll-sitemap, jekyll-feed
+]
+
+exclude: [
+  package.json,
+  node_modules,
+  gulpfile.js,
+  _app,
+]
+
