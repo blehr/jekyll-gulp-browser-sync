@@ -56,8 +56,8 @@ gulp.task('images', function() {
 });
 
 // build jekyll
-gulp.task('build', (done) => {
-  return child.spawn('jekyll', ['build'], { stdio: 'inherit'})
+gulp.task('build', function(done) {
+  return child.spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit'})
     .on('close', done);
 });
 

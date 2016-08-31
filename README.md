@@ -59,9 +59,10 @@
 
 ### Installation
 
-1. Clone this repository
-2. Run `bundle install` - ( installs gems )
-3. Run `npm install` - ( installs node_modules )
+1. Clone this repo
+2. Run `gem install jekyll bundler` - may need 'sudo'
+3. Run `bundle install` - ( installs gems )
+4. Run `npm install` - ( installs node_modules )
 
 ### Run Development Server
 
